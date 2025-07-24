@@ -15,7 +15,7 @@ st.set_page_config(
 # Load model
 @st.cache_resource
 def load_model():
-    model = tf.keras.models.load_model("E:/Streamlit_New/mobilenet_fakeness_classifier.h5")
+    model = tf.keras.models.load_model("Streamlit_New/mobilenet_fakeness_classifier.h5")
     return model
 
 model = load_model()
@@ -36,7 +36,7 @@ def get_base64_image(image_path):
     return base64.b64encode(data).decode()
 
 # Background image path
-image_path = "E:/Streamlit_New/3661054.jpg"
+image_path = "Streamlit_New/3661054.jpg"
 encoded_bg = get_base64_image(image_path)
 
 # Custom CSS styling
