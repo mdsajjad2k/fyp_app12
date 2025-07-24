@@ -1,2 +1,7 @@
 streamlit==1.29.0
-tf-nightly==2.16.0-dev20240218  # Last known Py3.12 build
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+
