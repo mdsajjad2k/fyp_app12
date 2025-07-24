@@ -1,3 +1,2 @@
 streamlit==1.29.0
-tensorflow==2.16.1
-protobuf==3.20.*  # Required for TensorFlow 2.16
+tf-nightly==2.16.0-dev20240218  # Last known Py3.12 build
