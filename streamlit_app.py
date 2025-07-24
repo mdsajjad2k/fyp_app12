@@ -4,10 +4,7 @@ import tensorflow as tf
 from PIL import Image
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 import base64
-import sys
 
-
-st.write("🔍 Python version:", sys.version)
 
 st.set_page_config(
     page_title="Fake Image Detector",
